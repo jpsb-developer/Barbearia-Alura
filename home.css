@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+        /* HEADER */
+
+.cabecalo{
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.cabecalo .container{
+    display: flex;
+    align-items: center;
+    width: 940px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.navigation ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.navigation a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+    font-size: 22px;
+}
+.navigation a:hover{
+    text-decoration: underline;
+    color: #8A2BE2;
+}
+.navigation li{
+    margin-left: 25px;
+}
+
+    /* BANNER */
+.banner{
+    width: 100%;
+}
+
+/* Main */
+
+main{
+    background: linear-gradient(white , gray);
+}
+
+/* Section Sobre a Barbearia Alura*/
+
+.sobre-barbearia .container{
+    width: 940px;
+    margin: 0 auto;
+}
+.titulo-princial{
+    text-align: center;
+    font-size: 2em;
+    margin: 1em;
+}
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+.sobre-barbearia em{
+    font-weight: bold;
+    font-style: italic;
+}
+.sobre-barbearia p{
+   margin: 1em 0;
+}
+
+/* Nosso Estabelecimento */
+
+.estabelecimento .container{
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.estabelecimento p{
+    margin-bottom: 2em;
+}
+.estabelecimento .mapa{
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+
+/* Benefícios */
+
+.beneficios .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 940px;
+    margin: 0 auto;
+    padding: 1em 0;
+}
+.image-beneficios{
+    width: 40%;
+    box-shadow: 10px 10px 10px #000;
+}
+.image-beneficios:hover{
+    opacity: 0.8;
+    transition: 1s;
+}
+
+.beneficios .lista-beneficios{
+    width: 30%;
+    line-height: 1.5em;
+    
+}
+.beneficios .itens:first-child{
+    font-weight: bold;
+}
+.lista-beneficios li:before{
+    content: "✪  ";
+}
+/* Video */
+.container-video{
+    display: flex;
+    margin: 0 auto;
+    width: 940px;
+    justify-content: center;
+}
+.container-video .video{
+    margin: 2.5em 0;
+}
+
+/* FOOTER */
+
+footer{
+    background-image: url("bg.jpg");
+    text-align: center;
+    padding: 1.5em;
+
+}
+footer p{
+    color: #ffffff;
+    font-size: 12px;
+    margin-top: 1.2em;
+}
+
