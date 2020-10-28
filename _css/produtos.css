@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+        /* HEADER */
+
+.cabecalo{
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.cabecalo .container{
+    display: flex;
+    align-items: center;
+    width: 940px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.navigation ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.navigation a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+    font-size: 22px;
+}
+.navigation a:hover{
+    text-decoration: underline;
+    color: #8A2BE2;
+}
+.navigation li{
+    margin-left: 25px;
+}
+
+/* Main - Lista de Produtos*/
+
+.main-content .container{
+    width: 940px;
+    margin: 0 auto;
+}
+.lista-produtos{
+    display: flex;
+    justify-content: center;
+    margin: 3em 0;
+}
+.lista-produtos li{
+    border: 2px solid #000;
+    text-align: center;
+    padding: 15px;
+    margin-right: 25px;
+    display: flex;
+    height: 415px;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.lista-produtos h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+.lista-produtos p{
+    font-size: 18px;
+}
+.preco-produto{
+    font-size: 22px;
+    font-weight: bold;
+
+}
+.lista-produtos li:hover{
+    border-color: #8A2BE2;
+
+}
+.lista-produtos li:hover h2{
+    font-size: 32px;
+}
+
+/*    Footer   */
+footer{
+    background-image: url("/_images/bg.jpg");
+    text-align: center;
+    padding: 1.5em;
+
+}
+footer p{
+    color: #ffffff;
+    font-size: 12px;
+    margin-top: 1.2em;
+}
